@@ -51,7 +51,7 @@ console.log(computerGuess);
 
         document.getElementById('guess-left').innerHTML = guessLeft;
 
-        document.getElementById('comp-guess').innerHTML = computerGuess;
+        // document.getElementById('comp-guess').innerHTML = computerGuess;
 
         document.getElementById('user-win').innerHTML = win;
 
