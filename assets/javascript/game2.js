@@ -9,7 +9,7 @@ var lose = 0;
 
 $(document).ready(function() {
 
-
+alert('press any key to start')
 
 
 console.log(computerGuess);
