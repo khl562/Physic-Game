@@ -21,6 +21,9 @@ var lose = 0
 
     document.onkeyup = function(event) {
         var userGuess = event.key;
+        $('#guessed').append(event.key);
+            
+
         if (event.key != computerGuess) {
             guessLeft = guessLeft - 1;
         }
